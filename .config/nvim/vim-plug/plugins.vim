@@ -21,7 +21,7 @@ call plug#begin('~/.config/nvim/plugged')
         Plug 'vim-airline/vim-airline'
         Plug 'vim-airline/vim-airline-themes'
         " Indent guides
-        " Plug 'Yggdroot/indentLine' 
+        Plug 'Yggdroot/indentLine' 
         " Git integration
         Plug 'mhinz/vim-signify'
         " Autoclose tags
@@ -43,5 +43,6 @@ call plug#begin('~/.config/nvim/plugged')
         Plug 'ayu-theme/ayu-vim'
         Plug 'dracula/vim', { 'as': 'dracula' }
         Plug 'phanviet/vim-monokai-pro'
+        Plug 'morhetz/gruvbox'
     endif
 call plug#end()

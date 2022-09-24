@@ -35,6 +35,11 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+" Terminal in nvim
+vnoremap <C-t> :vsplit<CR>:ter<CR> " :resize 12<CR> <-----Activar esto en caso de querer la terminal en hrizontal 
+nnoremap <C-t> :vsplit<CR>:ter<CR> " :resize 12<CR>
+tnoremap <Esc> <C-\><C-n> " Close terminal
+
 if !exists('g:vscode')
     " TAB in general mode will move to next buffer
     nnoremap <TAB> :bnext<CR>

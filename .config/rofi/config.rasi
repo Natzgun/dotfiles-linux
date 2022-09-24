@@ -3,7 +3,7 @@ configuration {
 	width: 50;
 	lines: 15;
 	columns: 1;
-	font: "UbuntuMono Nerd Font 14";
+	font: "Iosevka Nerd Font 12";
 	bw: 1;
 	location: 0;
 	padding: 5;
@@ -77,9 +77,10 @@ configuration {
 	kb-mode-previous: "Shift+Left,Control+ISO_Left_Tab";
 	kb-row-left: "Control+Page_Up";
 	kb-row-right: "Control+Page_Down";
-	kb-row-up: "Up,Control+p,ISO_Left_Tab";
+	//las lineas comentadas entraon en conlficto
+	//kb-row-up: "Up,Control+p,ISO_Left_Tab";
 	kb-row-down: "Down,Control+n";
-	kb-row-tab: "Tab";
+	//kb-row-tab: "Tab";
 	kb-page-prev: "Page_Up";
 	kb-page-next: "Page_Down";
 	kb-row-first: "Home,KP_Home";
@@ -137,4 +138,7 @@ listview {
 //@theme "/usr/share/rofi/themes/DarkBlue.rasi"
 //@theme "/usr/share/rofi/themes/onedark.rasi"
 //@theme "/usr/share/rofi/themes/DarkBlue.rasi"
-@theme "/usr/share/rofi/themes/onedark.rasi"
+//@theme "/usr/share/rofi/themes/onedark.rasi"
+//@theme "/usr/share/rofi/themes/onedark.rasi"
+@theme "/usr/share/rofi/themes/Monokai.rasi"
+//@theme "/usr/share/rofi/themes/twlines.rasi"
