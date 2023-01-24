@@ -1,7 +1,7 @@
 exec bspwm &&
 sxhkdrc
 
-#!/bin/bash
+#!/bin/zsh
 #
 # ~/.xinitrc
 #
