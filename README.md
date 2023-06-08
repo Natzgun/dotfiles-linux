@@ -26,3 +26,5 @@ Install theme manually in /usr/share/rofi/themes
 
 Install cutom Nvims with de pojokCode configurations
 Comming soon... uwu
+
+You have to break my hearth
