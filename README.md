@@ -25,3 +25,4 @@ Install theme manually in /usr/share/rofi/themes
 <https://github.com/pojokcodeid>
 
 Install cutom Nvims with de pojokCode configurations
+Comming soon...
